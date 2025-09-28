@@ -1,0 +1,226 @@
+/*================== CSS DARI HEADER, FOOTER DAN SEBAGIAN CONTENT HALAMANNYA ==================*/
+
+/* MENGATUR CONTENT AGAR TER CLEAR DIKARENAKAN PENGGUNAAN FLOAT AGAR TIDAK OVERFLOW JGA*/
+        /* START CLEARING */
+.clear:before,
+.clear:after {
+    content: " "; 
+    display: table;
+}
+.clear:after {
+    clear: both;
+}
+.clear {
+    zoom: 1;
+}
+        /* END CLEARING */
+
+/* MENGATUR BODY */
+body {
+    margin: 0;
+}
+
+/* MENGATUR SCROOL AGAR LEMBUT */
+html {
+    scroll-behavior: smooth;
+}
+
+/* MENGATUR POSISI DAN KEADAAN HEADER */
+header {
+    overflow: hidden; 
+    position: sticky;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0 18px;
+    background-color: #041C32;
+    top: 0;
+    z-index: 100;
+}
+
+/* MENGATUR LOGO HEADER */
+header .logo {
+    grid-area: logo;
+    max-width: 100px;
+}
+
+/* MENGATUR GAMBAR HEADER*/
+.logo img {
+    width: 85%;
+}
+
+/* MENGATUR NAVIGASI HEADER*/
+header .nav {
+    grid-area: nav;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* MENGATUR JAJARAN NAVIGASI HEADER */
+.nav ul {
+    display: flex;
+    gap: 43px;
+    list-style: none;
+}
+
+/* MENGATUR TEBAL TULISAN NAVIGASI */
+ul li {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* MENGATUR TAMPILAN NAVIGASI HEADER */
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* MENGATUR FORM YANG ADA DI HEADER */
+header form{
+    grid-area: form;
+    background-color: white;
+    display: flex;
+    height: min-content;
+    border: 10px solid #0a2641;
+    width: 250px;
+    border-radius: 25px;
+}
+
+/* MENGATUR UKURAN INPUTAN HEADER */
+form input{
+    width: 100%;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+/* MENGATUR ICON SUBMIT FORM DI HEADER */
+form .submit{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
+
+/* MENGATUR CHECKLIST AGAR HILANG */
+#check{
+   opacity: 0;
+}
+
+/* MENGATUR POSISI SIDEBAR  */
+#sidebar{
+    position: fixed;
+    background-color: #03182c;
+    /* opacity: 0.5; */
+    color: black;
+    top: 0;
+    height: 100vh;
+    /* bottom: 0; */
+    width: 300px;
+    left: -310px;
+    transition: .5s;
+    border: 2px solid white;
+}
+
+/* MENGATUR TAMPILAN DARI TULISAN" SIDEBAR */
+#sidebar ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+/* MENGATUR POSISI TULISAN SIDEBAR */
+#sidebar ul i{
+    display: grid;
+    place-items: center;
+}
+
+/* MENGATUR TULISANNYA */
+#sidebar ul p{
+    text-align: center;
+    font-size: 28px;
+    margin-top: -25px;
+    color: antiquewhite;
+}
+
+/* MENGATUR GAMBARNYA*/
+#sidebar ul i img {
+    width: 50%;
+}
+
+/* MENGATUR POSISI SIDE BAR*/
+#sidebar ul li {
+    margin: auto;
+}
+
+/* MENGATUR BURGER NYA*/
+#burger{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom:25px ;
+}
+
+/* MENGATUR POSISI SIDE BAR NYA */
+#content{
+    position: relative;
+}
+
+
+/* MENGATUR GARIS AGAR TERBENTUK HAMBURGER */
+.line{
+    border-bottom: 1px solid white;
+    display: none;
+    transition: .5s;
+}
+
+/* MENGATUR ANIMASI SIDE BAR KETIKA DI KLIK */
+#check:checked ~ #sidebar{
+    left: 0;
+}
+
+/* MENGATUR ANIMASI HAMBURGERNYA*/
+#burger div:nth-child(3){
+    transform-origin: 0 0;
+}
+
+/* MENGATUR ANIMASI HAMBURGERNYA*/
+#burger div:nth-child(5){
+    transform-origin: 0 100%;
+}
+
+/* MENGATUR ANIMASI KETIKA DIM KLIK HAMBURGERNYA*/ 
+#check:checked ~ div:nth-child(3){
+    transform:scale(0);
+}
+
+/* MENGATUR ANIMASI KETIKA DIM KLIK HAMBURGERNYA*/
+#check:checked ~ div:nth-child(4){
+    transform: rotate(45deg) translate(-4px,-1px);
+}
+
+/* MENGATUR ANIMASI KETIKA DIM KLIK HAMBURGERNYA*/
+#check:checked ~ div:nth-child(5){
+    transform: rotate(-45deg) translate(3px,-1px);
+}
+
+/* MENGATUR UKURAN FOOTERNYA*/
+footer {
+    background-color: #0a2641;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* HOVER HEADER */
+header nav ul li:hover{
+    background-color:  rgba(0, 0, 0, 0.54);
+}

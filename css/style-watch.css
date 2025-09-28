@@ -1,0 +1,46 @@
+/*================== CSS DARI HALAMAN SEARCH ==================*/
+
+/* MENGATUR WARNA DAN JARAK BODY */
+body {
+    margin: 0;
+    background-color: #0a2641;
+}
+
+/* MENGATUR POSISI BUNGKUS KONTEN */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}    
+
+/* MENGATUR  UKURAN IFRAME NYA */
+.container iframe {
+    width: 80%;
+    height: 85vh;
+}
+
+/* MENGATUR UKURAN DAN POSISI DETAIL DARI IFRAME*/
+.container .detail {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 35px;
+    gap: 50px;
+}
+
+/* MENGATUR GAMBAR YANG DI DETAIL */
+.container .detail img {
+    max-width: 120px;
+    width:100%;
+    height: 10%;
+}
+
+/* MENGATUR JARAK TULISAN CAPTION DETAIL */
+.detail .img figcaption {
+    >p,h1,h3 {
+        margin: 0;
+    } 
+}

@@ -1,0 +1,86 @@
+/* ================== RESPONSIF HALAMAN HOME ==================*/
+
+/* RESPONSIF KETIKA UKURAN KURANG DARI 860 PX*/
+@media(max-width:860px){
+    /* MENGATUR JARAK DAN TULISAN FOOTER */
+    footer {
+        margin-bottom: 80px;
+        font-weight: bold
+    }
+}
+
+/* RESPONSIF KETIKA UKURAN KURANG DARI 425 PX*/
+@media(max-width:425px){
+    /* MENGATUR JUDUL NYA */
+    .container .contents .tittle {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /* MENGATUR GAMBARNYA */
+    figure a img {
+        width: 100%;
+    }
+
+    /* MENGATUR CAPTION NYA */
+    figure a figcaption {
+        width: 100%;
+    }
+
+    /* MENGATUR GAMBARNYA */
+    #sidebar ul i img {
+        width: 35%;
+    }
+
+    /* MENGATUR TULISANNYA */
+    #sidebar ul p {
+        font-size: 24px;
+    }
+
+    /* MENGATUR UKURAN TULISANNYA */
+    #sidebar ul li a {
+        font-size: 20px;
+    }
+
+    /* MENGATUR UKURAN SIDEBAR */
+    #sidebar {
+        width: 60%;
+    }
+
+    /* MENGATUR UKURA DARI ICON NYA */
+    aside nav ul li a .bx {
+        font-size: 25px;
+    }
+
+    /* MENGATUR UKURAN TULISAN */
+    aside nav ul li a span {
+        font-size: 12px;
+    }
+
+    /* MENGATUR TINGGI NAVIGASI */
+    main aside {
+        height: 70px;
+    } 
+}
+
+/* RESPONSIF KETIKA UKURAN KURANG DARI 361 PX*/
+@media(max-width:361px){
+    /* MENGATUR ICON */
+    aside nav ul li a .bx {
+        font-size: 20px;
+    }
+
+    /* MENGATUR TULISANNYA */
+    aside nav ul li a span {
+        font-size: 10px;
+    }
+
+    /* MENGATUR UKURAN TINGGI NAVIGASI */
+    main aside {
+        height: 60px;
+    } 
+}
+
+
+
+

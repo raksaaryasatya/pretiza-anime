@@ -1,0 +1,82 @@
+/* ================== RESPONSIF ALL KONTEN SELAIN HALAMAN HOME ==================*/
+
+/* RESPONSIF KETIKA LAYAR DIBAWAH 371 PX */
+@media(max-width:371px){
+    /* MENGATUR UKURAN IMG */
+    figure a img {
+        width: 100%;
+    }
+
+    /* MENGATUR UKURAN CAPTION */
+    figure a figcaption {
+        width: 100%;
+    }
+}
+
+
+/* RESPONSIF KETIKA LAYAR DIBAWAH 486 PX */
+@media(max-width:486px){
+    /* MENGATUR UKURAN IMG */
+    figure a img {
+        width: 100%;
+    }
+
+    /* MENGATUR UKURAN CAPTION */
+    figure a figcaption {
+        width: 100%;
+    }
+}
+
+/* RESPONSIF KETIKA LAYAR DIBAWAH 565 PX */
+@media(max-width:565px){
+    /* MENGATUR JUDUL CONTENT KETIKA SEARCHING */
+    main .result h1 {
+        font-size: 25px;
+    }
+}
+
+/* RESPONSIF KETIKA LAYAR DIBAWAH 379 PX */
+@media(max-width:379px){
+    /* MENGATUR JUDUL CONTENT KETIKA SEARCHING */
+    main .result h1 {
+        font-size: 18px;
+    }
+}
+
+/* RESPONSIF KETIKA LAYAR DIBAWAH 425 PX */
+@media(max-width:425px){
+    /* MENGATUR GAMBAR */
+    #sidebar ul i img {
+        width: 35%;
+    }
+
+    /* MENGATUR UKURAN TULISAN */
+    #sidebar ul p {
+        font-size: 24px;
+    }
+
+    /* MENGATUR UKURAN TULISAN */
+    #sidebar ul li a {
+        font-size: 20px;
+    }
+
+    /* MENGATUR BESAR SIDEBAR */
+    #sidebar {
+        width: 60%;
+    }
+
+    /* MENGATUR UKURAN ICON DARI NAVIGASI */
+    aside nav ul li a .bx {
+        font-size: 28px;
+    }
+
+    /* MENGATUR NAMA DARI ICON NAVIGASINYA */
+    aside nav ul li a span {
+        font-size: 15px;
+    }
+
+    /* MENGATUR UKURAN SIDE NAVIGATION  */
+    main aside {
+        height: 70px;
+    } 
+}

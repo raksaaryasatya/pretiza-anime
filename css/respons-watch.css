@@ -1,0 +1,18 @@
+/* ================== RESPONSIF HALAMAN WATCH ==================*/
+
+
+@media(max-width:676px) {
+    .container .detail {
+        flex-direction: column;
+    }
+
+    .detail figcaption h1{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .detail figcaption p{
+        font-size: 14px;
+        margin: 0;
+    }
+}

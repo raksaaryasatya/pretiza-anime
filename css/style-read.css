@@ -1,0 +1,72 @@
+/*================== CSS DARI HALAMAN READ ==================*/
+
+/* MENGATUR WARNA BODY */
+body {
+    background-color: #0a2641;
+}
+
+/* MENGATUR POSISI KONTEN */
+main .container .content {
+    margin: 0 13px;
+    background-color: #0a2641;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid whitesmoke;
+    padding: 13px;
+    gap: 23px 17px;
+}
+
+/* MENGATUR HOVER GAMBAR */
+.content figure:hover {
+    transform: scale(1.08);
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+/* MENGATUR POSISI GAMBAR*/
+.content figure {
+        margin: 0;
+    }
+    
+/* MENGATUR CAPTION DARI KONTEN*/
+figure a {
+    margin: 0;
+    width: 80%;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
+}    
+
+/* MENGATUR GAMBARNYA*/
+figure a img {
+    width: 80%;
+    width: 150px;
+    aspect-ratio: 1/1;
+}
+
+/* MENGATUR POSISI CAPTION GAMBARNYA*/
+figure figcaption {
+    position: relative;
+    width: 150px;
+    background-color: rgba(246, 247, 211, 0.527);
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+/* MENGATUR UKURA CAPTION */
+figcaption p{
+    margin: 0;
+    text-decoration: none;
+    font-size: 13.9px;
+}
+
+/* MENGATUR UKURAN DAN KETEBALAN JUDUL */
+main .result h1 {
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAS PROJEKAN</title>
+
+    <!-- MEMASUKKAN CSS NYA -->
+    <link rel="stylesheet" href="../css/style-header-footer.css">
+    <link rel="stylesheet" href="../css/style-contents.css">
+    <link rel="stylesheet" href="../css/respons-header.css">
+    <link rel="stylesheet" href="../css/respons-home.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- END MASUKIN CSS -->
+
+    <link rel="shortcut icon" href="../asset/logo-anime.png">
+</head>
+<body>
+
+<!-- START HEADING -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="../asset/logo-anime.png" alt="">
+            </a>
+        </div>
+        <nav class="nav" id="navbar">
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="read.html">Read</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <form action="search-anime.html" id="search-engine">
+            <input type="text" placeholder="Cari Judul Anime" id="engine">
+            <button type="submit" class="submit">
+                <img src="../asset/bx-search-alt.svg" alt="">
+            </button>
+        </form>
+        <div id="content">
+            <label for="check" >
+                <div id="burger">
+                    <input id="check" type="checkbox">
+                    <div id="sidebar">
+                        <ul>
+                            <i><img src="../asset/logo-anime.png" alt=""></i>
+                            <p>PRETIZA ANIME</p>
+                            <li><a href="../html/index.html">Home</a></li>
+                            <li><a href="../html/read.html">Read</a></li>
+                            <li><a href="../html/blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </label>
+        </div>
+    </header>
+    <!-- END HEADING -->
+
+<!-- ISI HALAMAN UTAMA--> 
+    <main class="clear">
+        <!-- LEFT NAVIGATION -->
+        <aside>
+            <nav>
+                <ul class="ul">
+                <li id="summer-nav">
+                    <a href="#part-summer">
+                        <i class='bx bx-home-circle' id="icon-summer"></i>
+                        <span>SUMMER</span>
+                    </a>
+                </li>
+                <li id="upcoming-nav">
+                    <a href="#part-upcoming">
+                        <i class='bx bx-calendar-star' id="icon-upcoming"></i>
+                        <span>UP COMING</span>
+                    </a>
+                </li>
+                <li id="recom-nav">
+                    <a href="#part-recom">
+                        <i class='bx bx-medal' id="icon-recom"></i>
+                        <span>RECOMMEND</span>
+                    </a>
+                </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- END -->
+
+        <!-- CONTENT -->
+        <div class="container">
+            <div class="contents first" id="part-summer">
+                <div class="tittle first-tittle">SUMMER</div>
+                <div class="content"></div>
+            </div>
+            <div class="contents second" id="part-upcoming">
+                <div class="tittle second-tittle">UPCOMING</div>
+                <div class="content"></div>
+            </div>
+            <div class="contents third" id="part-recom">
+                <div class="tittle third-tittle">RECOMMENDATION</div>
+                <div class="content"></div>
+            </div>
+        </div>
+        <!-- END -->
+    </main>
+
+<!-- FOOTER -->
+    <footer>
+    <p>&#169;2023 Raksa All Right Reserved </p>
+    </footer>
+<!-- END -->
+
+    <!-- MEMASUKKAN JAVASCRIPT -->
+    <script src="../javaScript/script-summer.js"></script>
+    <script src="../javaScript/script-upcoming.js"></script>
+    <script src="../javaScript/script-recom.js"></script>
+    <script src="../javaScript/script-search-anime-1.js"></script>
+    <script src="../javaScript/script-search-anime-1.js"></script>
+</body>
+</html>

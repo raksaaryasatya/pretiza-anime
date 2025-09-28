@@ -1,0 +1,164 @@
+
+/* ================== CSS CONTENTS SEMUANYA SELAIN HALAMAN READ/MANGA, SEARCHING, DAN WATCH==================*/
+
+/* MENGATUR TAMPILAN BODY*/
+body{
+    background-color: #0a2641;
+    /* GOOGLE FONT */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    /*  */
+    color: white;
+}
+
+/* MENGATUR POSISI NAVIGASI */
+main aside{
+    display: flex;
+    position: fixed; 
+    margin-top: 8%;
+    z-index: 11;
+}
+
+/* MENGATUR POSISI UL DARI NAVIGASI */
+aside nav ul{
+    display: flex;
+    flex-direction: column;    
+    list-style: none;
+    padding-left: 0;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* MENGATUR UKURAN NAVIGASI */
+nav ul li{
+    width: 100%;
+}
+
+/* MENGATUR POSISI NAVIGASI DAN TAMPILANNYA */
+ul li a{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+}
+
+/* MENGATUR UKURAN ICON */
+li a .bx{
+    font-size: 43px;
+}
+
+/* MENGATUR TULISAN BAWAH ICON*/
+li a span{
+    font-size: 14px;
+}
+
+/* MENGATUR HOVER DARI NAVIGASI */
+ul li a:hover{
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.54);
+}
+
+/* CSS CONTENT */
+main .container {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 90%;
+}
+
+/* CSS ALL CONTENT */
+.container .contents .content {
+    margin: 0 13px;
+    background-color: #0a2641;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    padding: 13px;
+    gap: 23px 17px;
+}
+
+/* MENGATUR JUDUL DARI KONTEN */
+.container .contents .tittle {
+    text-align: center;
+}
+
+/* MENGATUR HOVER DARI GAMBARNYA */
+.content figure:hover {
+    transform: scale(1.08);
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+/* MENGATUR GAMBAR DARI KONTEN NYA */
+.content figure {
+        margin: 0;
+    }
+    
+/* MENGATUR TAMPILAN KONTEN */
+figure a {
+    margin: 0;
+    width: 80%;
+    margin-bottom: 40px;
+    box-shadow: 3px 4px 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    color: black;
+}  
+
+/* MENGATUR TAMPILAN DARI KONTENNYA */
+figure a img {
+    width: 80%;
+    width: 150px;
+    border-radius: 25px;
+    aspect-ratio: 1/1;
+}
+
+/* MENGATUR CAPTION NYA */
+figure figcaption {
+    position: relative;
+    width: 150px;
+    margin-top: -110px;
+    height: 108px;
+    background-color: rgba(246, 247, 211, 0.527);
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+
+}
+
+/* MENGATUR UKURAN FONT NYA */
+figcaption p{
+    margin: 0;
+    text-decoration: none;
+    font-size: 13.9px;
+}
+
+/* MENGATUR UKURAN DAN JARAK JUDUL KONTEN */
+.tittle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* MENGATUR JARAK JUDUL KONTEN */
+.first {
+    padding-top: 110px;
+}
+
+/* MENGATUR JARAK JUDUL KONTEN */
+.second {
+    padding-top: 110px;
+}
+
+/* MENGATUR JARAK JUDUL KONTEN */
+.third {
+    padding-top: 110px;
+}
+
+.forth {
+    padding-top: 110px;
+}
+

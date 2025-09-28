@@ -1,0 +1,10 @@
+/* ================== RESPONSIF HEADER BLOG  ==================*/
+
+iframe {
+    display: block;
+    background: #000;
+    border: none;
+    height: 70vh;
+    width: 100vw;
+    overflow-x:hidden;
+}

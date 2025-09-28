@@ -1,0 +1,97 @@
+/* ================== RESPONSIF HALAMAN HEADERNYA ==================*/
+
+/* RESPONSIF KETIKA LAYAR KURANG DARI 860 PX */
+@media(max-width:860px){
+    /* MENGHILANGKAN NAVIGASI KETIKA UKURAN LAYAR KURANG DARI 860 PX */
+    #navbar {
+        display: none;
+    }
+
+    /* MEMUNCULKAN GARIS 3 (HAMBUMBER) KETIKA LAYAR KURANG DARU 860 PX */
+    .line {
+        display: block;
+    }
+
+    /* MEMPERBERSAR KONTEN AGAR MAKSIMAL GAMBARNYA KETIKA LAYAR KURANG DARU 860 PX*/
+    main .container{
+        width: 100%;
+        float: none;
+    }
+
+    /* MENGATUR NAVIGASI DARI SAMPING PINDAH KE BAWAH DAN MENGATUR UKURANNYA KETKA KETIKA LAYAR KURANG DARU 860 PX  */
+    main aside {
+        margin: 0;
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+        background-color: #0a26419b;
+        z-index: 12;
+        border: solid white 2px;
+    }
+
+    /* MENGATUR UKURAN NAVIGASI BAWAH AGAR MEMENUHI LAYAR KETIKA LAYAR KURANG DARU 860 PX*/
+    aside nav{
+        width: 100%;
+    }
+
+    /* MENGATUR TAMPILAN NAVIGASI BAWAH KETIKA LAYAR KURANG DARU 860 PX*/
+    ul li a{
+        display: flex;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* MENGATUR POSISI DAN UKURAN DARI NAVIGASI BAWAH  */
+    main aside {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        z-index: 12;
+        >nav {
+            /* MENGATUR POSISI UL NYA AGAR KE SAMPING */
+            >ul {
+                flex-direction: row;
+            }
+        }
+    }
+
+    /* MENGATUR JARAK KONTEN */
+    main .container {
+        margin-left: 0;
+    }
+
+    /* MENGATUR JARAK KONTEN */
+    .contents .content {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
+
+/* RESPONSIF IMG & INPUTAN */
+@media(max-width:451px){
+    /* MENGATUR GAMBARNYA KETIKA LAYAR KURANG DARI 451 PX*/
+    header .logo img {
+        width: 80%;
+    }
+
+    /* MENGATUR UKURAN FORM KETIKA LAYAR KURANG DARI 451 PX*/
+    header form {
+        width: 40%;
+    }   
+}
+
+/* RESPONS PLACEHOLDER */
+@media(max-width:396px){
+    /* MENGATUR UKURAN FORM KETIKA LAYAR KURANG DARI 451 PX*/
+    header form input {
+        font-size: 9px;
+    }
+}
+
+
+
