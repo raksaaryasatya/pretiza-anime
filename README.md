@@ -1,33 +1,31 @@
-# 🎬 Anime & Manga Recommender
+# 🎬 Anime & Manga Explorer
 
-Proyek ini adalah aplikasi web untuk menampilkan **rekomendasi anime dan manga** menggunakan [Jikan.moe API](https://jikan.moe), dengan tambahan fitur interaktif seperti **streaming trailer YouTube** dan integrasi ke **MyAnimeList**.  
+Proyek ini adalah aplikasi web untuk **menemukan anime dan manga favoritmu** menggunakan [Jikan.moe API](https://jikan.moe).  
+Dilengkapi dengan fitur **pencarian, streaming trailer, integrasi MyAnimeList,** dan juga akses ke **blog pribadi developer**.  
 Didesain agar **menarik, interaktif, dan responsif** di berbagai perangkat.
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Fitur yang Ditawarkan
 
-- 🔹 **Rekomendasi Anime**
-  - Data diambil dari API [Jikan.moe](https://jikan.moe).
-  - Menampilkan detail informasi anime.
+- 🔎 **Pencarian Anime**  
+  Cari anime dengan cepat berdasarkan **judul, genre, atau karakter favoritmu**.  
+  Hasil pencarian menampilkan detail lengkap anime yang relevan.  
 
-- 🔹 **Rekomendasi Manga**
-  - Data juga dari API Jikan.moe.
-  - Klik manga → diarahkan langsung ke halaman **MyAnimeList**.
+- 🎥 **Streaming Trailer Anime**  
+  Tonton trailer anime langsung dari aplikasi.  
+  Video diambil dari YouTube (via API Jikan.moe) dengan kualitas jernih dan **tanpa iklan mengganggu**.  
 
-- 🔹 **Streaming Trailer**
-  - Trailer video anime diambil dari YouTube (link dari API Jikan.moe).
-  - Bisa langsung diputar di halaman aplikasi.
+- 📚 **Pencarian Manga**  
+  Temukan judul manga populer atau yang sedang tren.  
+  Lihat informasi lengkap: ringkasan, penulis, dan ilustrator.  
 
-- 🔹 **Tampilan User-Friendly**
-  - Desain menarik dan interaktif.
-  - Pengalaman pengguna lebih nyaman.
+- 🔗 **Integrasi MyAnimeList**  
+  Klik manga yang menarik → langsung diarahkan ke halaman resmi di **[MyAnimeList](https://myanimelist.net/)**.  
+  Membantu mengatur koleksi manga agar lebih rapi dan mudah diakses.  
 
-- 🔹 **Responsif**
-  - Mendukung tampilan **mobile, tablet, dan desktop**.
-
-- 🔹 **Integrasi Blog Developer**
-  - Terhubung dengan halaman **Blogspot Developer** sebagai dokumentasi tambahan.
+- 📝 **Blog Pribadi**  
+  Jelajahi **blog pribadi developer** melalui link yang sudah disediakan.  
 
 ---
 
@@ -35,7 +33,7 @@ Didesain agar **menarik, interaktif, dan responsif** di berbagai perangkat.
 - **HTML5**, **CSS3**, **JavaScript**
 - **Jikan.moe API** untuk data anime & manga
 - **YouTube Embed** untuk trailer
-- **Responsive Design** (CSS Flexbox/Grid, media query, atau framework CSS jika dipakai)
+- **Responsive Design** (mobile, tablet, desktop)
 
 ---
 
